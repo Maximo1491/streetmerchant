@@ -12,10 +12,12 @@ export type Pricing = {
 
 export type Brand =
   | 'test:brand'
+  | 'captcha-deterrent'
   | 'pokemon';
 
 export type Series =
   | 'test:series'
+  | 'captcha-deterrent'
   | 'hidden-fates'
   | 'shining-fates'
   | 'battle-styles'
@@ -23,6 +25,7 @@ export type Series =
 
 export type Model =
   | 'test:model'
+  | 'captcha-deterrent'
   | 'etb'
   | 'booster'
   | 'booster-box'
