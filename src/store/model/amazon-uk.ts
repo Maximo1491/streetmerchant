@@ -28,19 +28,12 @@ export const AmazonUk: Store = {
   },
   links: [
     {
-      brand: 'test:brand',
-      cartUrl:
-        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0753R2TWC&Quantity.1=1',
-      model: 'test:model',
-      series: 'test:series',
-      url: 'https://www.amazon.co.uk/dp/B0753R2TWC/',
-    },
-    {
       brand: 'pokemon',
       model: 'booster-box',
       series: 'battle-styles',
       url: 'https://www.amazon.co.uk/Pokémon-TCG-Shield-Battle-Booster/dp/B08R84814V',
     },
   ],
-  name: 'amazon-uk',
+  name: 'Amazon',
+  postage: 0,
 };

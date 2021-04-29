@@ -20,13 +20,6 @@ export const Very: Store = {
   },
   links: [
     {
-      brand: 'test:brand',
-      model: 'test:model',
-      series: 'test:series',
-      url:
-        'https://www.very.co.uk/msi-geforce-gtx-1660-ti-gaming-x-6g-graphics-card/1600350984.prd',
-    },
-    {
       brand: 'pokemon',
       model: 'triple-booster',
       series: 'battle-styles',
@@ -83,5 +76,6 @@ export const Very: Store = {
       },
     ],
   },
-  name: 'very',
+  name: 'Very',
+  postage: 0,
 };

@@ -18,18 +18,12 @@ export const Game: Store = {
   },
   links: [
     {
-      brand: 'test:brand',
-      model: 'test:model',
-      series: 'test:series',
-      url:
-        'https://www.game.co.uk/en/ea-sports-fifa-21-500gb-ps4-bundle-2832947',
-    },
-    {
       brand: 'pokemon',
       model: 'booster',
       series: 'battle-styles',
       url: 'https://www.game.co.uk/en/pokemon-tcg-sword-shield-5-battle-styles-booster-2850571',
     },
   ],
-  name: 'game',
+  name: 'Game',
+  postage: 4.99,
 };

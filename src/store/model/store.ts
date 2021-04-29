@@ -92,6 +92,7 @@ export type Store = {
   };
   labels: Labels;
   name: string;
+  postage: number;
   currency: '£' | '$' | '€' | 'R$' | 'kr.' | '';
   setupAction?: (browser: Browser) => void;
   /**

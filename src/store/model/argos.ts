@@ -13,17 +13,12 @@ export const Argos: Store = {
   },
   links: [
     {
-      brand: 'test:brand',
-      model: 'test:model',
-      series: 'test:series',
-      url: 'https://www.argos.co.uk/product/5718469',
-    },
-    {
       brand: 'pokemon',
       model: 'tin',
       series: 'unknown',
       url: 'https://www.argos.co.uk/product/3907980',
     },
   ],
-  name: 'argos',
+  name: 'Argos',
+  postage: 0,
 };
