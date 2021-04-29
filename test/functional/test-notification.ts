@@ -14,6 +14,7 @@ const link: Link = {
 
 const store: Store = {
   currency: '',
+  postage: 0,
   labels: {
     inStock: {
       container: 'test:container',
