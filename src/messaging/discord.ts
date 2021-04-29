@@ -43,7 +43,6 @@ export function sendDiscordMessage(link: Link, store: Store) {
         if (link.price)
           embed.addField('Price', `${store.currency}${link.price}`, true);
           embed.addField('Postage', `${store.currency}${store.postage}`, true);
-          embed.addField('Total', `${store.currency}${link.price+store.postage}`, true);
         embed.addField('Product Page', link.url);
         if (link.cartUrl) embed.addField('Add to Cart', link.cartUrl);
         embed.addField('Series', link.series, true);
