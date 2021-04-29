@@ -3,6 +3,7 @@ import {logger} from '../../logger';
 import {parseCard} from './helpers/card';
 
 export const Very: Store = {
+  backoffStatusCodes: [403],
   currency: '£',
   labels: {
     inStock: {

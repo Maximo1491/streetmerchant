@@ -1,6 +1,7 @@
 import {Store} from './store';
 
 export const SmythsToys: Store = {
+  backoffStatusCodes: [403],
   currency: '£',
   labels: {
     inStock: {
