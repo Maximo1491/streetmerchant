@@ -229,6 +229,8 @@ const notifications = {
   discord: {
     notifyGroup: envOrArray(process.env.DISCORD_NOTIFY_GROUP),
     notifyGroupSeries: {
+      'test:series': envOrArray(process.env.DISCORD_NOTIFY_GROUP_TEST),
+      'captcha-deterrent': [],
       'battle-styles': envOrArray(process.env.DISCORD_NOTIFY_GROUP_BATTLE_STYLES),
     },
     webhooks: envOrArray(process.env.DISCORD_WEB_HOOK),
@@ -381,6 +383,8 @@ const store = {
   country: envOrString(process.env.COUNTRY, 'usa'),
   maxPrice: {
     series: {
+      'test:series': envOrNumber(process.env.MAX_PRICE_SERIES_TEST),
+      'captcha-deterrent': 0,
       'battle-styles': envOrNumber(process.env.MAX_PRICE_SERIES_BATTLE_STYLES),
     },
   },
