@@ -31,10 +31,10 @@ export function sendDiscordMessage(link: Link, store: Store) {
         const embed = new Discord.MessageEmbed()
           .setTitle('_**Stock alert!**_')
           .setDescription(
-            '> provided by [Fully Cycled](https://fullycycled.com/) with :chonk:'
+            '> provided by Pokélerts with :heart:'
           )
           .setThumbnail(
-            'https://cdn.shopify.com/s/files/1/0249/6446/4674/files/Logo_transparent_outline_trimmed_80x.png'
+            'http://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Images.png'
           )
           .setColor('#52b788')
           .setTimestamp();
@@ -42,7 +42,8 @@ export function sendDiscordMessage(link: Link, store: Store) {
         embed.addField('Store', store.name, true);
         if (link.price)
           embed.addField('Price', `${store.currency}${link.price}`, true);
-        embed.addField('Postage', `${store.currency}${store.postage}`, true);
+          embed.addField('Postage', `${store.currency}${store.postage}`, true);
+          embed.addField('Total', `${store.currency}${link.price+store.postage}`, true);
         embed.addField('Product Page', link.url);
         if (link.cartUrl) embed.addField('Add to Cart', link.cartUrl);
         embed.addField('Series', link.series, true);
