@@ -25,18 +25,11 @@ export const SmythsToys: Store = {
         'https://www.smythstoys.com/uk/en-gb/video-games-and-tablets/video-games/call-of-duty-video-games/call-of-duty-black-ops-cold-war/call-of-duty-black-ops-cold-war-ps5/p/191951',
     },
     {
-      brand: 'sony',
-      model: 'ps5 console',
-      series: 'sonyps5c',
+      brand: 'pokemon',
+      model: 'booster',
+      series: 'battle-styles',
       url:
-        'https://www.smythstoys.com/uk/en-gb/video-games-and-tablets/playstation-5/playstation-5-consoles/playstation-5-console/p/191259',
-    },
-    {
-      brand: 'sony',
-      model: 'ps5 digital',
-      series: 'sonyps5de',
-      url:
-        'https://www.smythstoys.com/uk/en-gb/video-games-and-tablets/playstation-5/playstation-5-consoles/playstation-5-digital-edition-console/p/191430',
+        'https://www.smythstoys.com/uk/en-gb/toys/action-figures-and-playsets/pokemon/pokemon-trading-cards-game/pok%c3%a9mon-trading-card-game-sword-and-shield-5-battle-styles-booster-pack-assortment/p/197254',
     },
   ],
   name: 'smythstoys',

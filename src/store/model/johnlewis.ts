@@ -17,11 +17,11 @@ export const JohnLewis: Store = {
         'https://www.johnlewis.com/sony-playstation-5-dualsense-wireless-controller-white/p5192093',
     },
     {
-      brand: 'sony',
-      model: 'ps5 console',
-      series: 'sonyps5c',
+      brand: 'pokemon',
+      model: 'triple-booster',
+      series: 'unknown',
       url:
-        'https://www.johnlewis.com/sony-playstation-5-console-with-dualsense-controller/white/p5115192',
+        'https://www.johnlewis.com/pokemon-triple-booster-pack-trading-cards-assorted/p3017163',
     },
   ],
   name: 'johnlewis',

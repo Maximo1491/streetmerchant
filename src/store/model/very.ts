@@ -26,6 +26,13 @@ export const Very: Store = {
       url:
         'https://www.very.co.uk/msi-geforce-gtx-1660-ti-gaming-x-6g-graphics-card/1600350984.prd',
     },
+    {
+      brand: 'pokemon',
+      model: 'triple-booster',
+      series: 'battle-styles',
+      url:
+        'https://www.very.co.uk/pokemon-pokemon-trading-card-game-sword-shield-5-battle-styles-3-pack-booster-display-only-1-supplied/1600582227.prd',
+    },
   ],
   linksBuilder: {
     builder: (docElement, series) => {
@@ -70,22 +77,7 @@ export const Very: Store = {
     ttl: 300000,
     urls: [
       {
-        series: '3060ti',
-        url:
-          'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100',
-      },
-      {
-        series: '3070',
-        url:
-          'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100',
-      },
-      {
-        series: '3080',
-        url:
-          'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100',
-      },
-      {
-        series: '3090',
+        series: 'test:series',
         url:
           'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100',
       },
