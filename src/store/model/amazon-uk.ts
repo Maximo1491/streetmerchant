@@ -30,6 +30,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'booster-box',
+      description: 'Battle Styles Booster Box',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08R84814V&Quantity.1=1',
       series: 'battle-styles',
@@ -39,6 +40,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'tin',
+      description: 'Hidden Fates Random Tin',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07S9WBNV2&Quantity.1=1',
       series: 'hidden-fates',
@@ -48,6 +50,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'etb',
+      description: 'Hidden Fates Elite Trainer Box',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07SPJY3YR&Quantity.1=1',
       series: 'hidden-fates',
@@ -57,6 +60,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'tin',
+      description: 'Hidden Fates Raichu Tin',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07XTKBCN9&Quantity.1=1',
       series: 'hidden-fates',
@@ -66,6 +70,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'tin',
+      description: 'Hidden Fates Charizard Tin',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07XTKQBZG&Quantity.1=1',
       series: 'hidden-fates',
@@ -75,6 +80,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'tin',
+      description: 'Hidden Fates Gyarados Tin',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07XTJV8DC&Quantity.1=1',
       series: 'hidden-fates',
@@ -84,6 +90,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'tin',
+      description: 'Hidden Fates 3x Tins',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07VND1BJF&Quantity.1=1',
       series: 'hidden-fates',
@@ -93,6 +100,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'etb',
+      description: 'Shining Fates Elite Trainer Box',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS2F9RD&Quantity.1=1',
       series: 'shining-fates',
@@ -102,6 +110,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'mini-tin',
+      description: 'Shining Fates Mini Tin',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PTTVLBJ&Quantity.1=1',
       series: 'shining-fates',
@@ -111,6 +120,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'box',
+      description: 'Shining Fates Random Mad Party Pin Collection',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PTV374B&Quantity.1=1',
       series: 'shining-fates',
@@ -120,6 +130,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'box',
+      description: 'Shining Fates Pikachu V Box',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS15TSH&Quantity.1=1',
       series: 'shining-fates',
@@ -129,6 +140,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'box',
+      description: 'Shining Fates Crobat/Dragapult Premium Collection',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PSBQPTV&Quantity.1=1',
       series: 'shining-fates',
@@ -138,6 +150,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'tin',
+      description: 'Shining Fates Random Tin',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS582QY&Quantity.1=1',
       series: 'shining-fates',
@@ -147,6 +160,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'etb',
+      description: 'Zacian/Zamazenta Elite Trainer Box',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HJCJT89&Quantity.1=1',
       series: 'sun-and-moon',
@@ -156,6 +170,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'etb',
+      description: 'Zacian and Zamazenta Ultra Premium Collection',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HJ86Y8T&Quantity.1=1',
       series: 'sun-and-moon',
