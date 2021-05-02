@@ -28,13 +28,14 @@ export function sendDiscordMessage(link: Link, store: Store) {
 
     (async () => {
       try {
+        const thumbnail = (link.thumbnail) ? link.thumbnail : 'http://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Images.png';
         const embed = new Discord.MessageEmbed()
           .setTitle('_**Stock alert!**_')
           .setDescription(
-            '> provided by Pokélerts with :heart:'
+            `_**${link.description}**_`
           )
           .setThumbnail(
-            'http://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Images.png'
+            thumbnail
           )
           .setColor('#52b788')
           .setTimestamp();
@@ -42,10 +43,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
         embed.addField('Store', store.name, true);
         if (link.price)
           embed.addField('Price', `${store.currency}${link.price}`, true);
-          embed.addField('Postage', `${store.currency}${store.postage}`, true);
-          embed.addField('total', `${store.currency}${link.price!+store.postage}`, true);
-        if(link.description)
-          embed.addField('Item', link.description);
+          embed.addField('Inc Postage', `${store.currency}${link.price!+store.postage}`, true);
         embed.addField('Product Page', link.url);
         if (link.cartUrl) embed.addField('Add to Cart', link.cartUrl);
         embed.addField('Series', link.series, true);

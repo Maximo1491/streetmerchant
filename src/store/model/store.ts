@@ -47,6 +47,7 @@ export type Link = {
   series: Series;
   screenshot?: string;
   description?: string;
+  thumbnail?: string;
   url: string;
   maxPrice?: number;
 };
