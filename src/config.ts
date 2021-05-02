@@ -401,10 +401,7 @@ const store = {
       series: envOrString(series),
     };
   }),
-  showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, [
-    'test:series',
-    'captcha-deterrent',
-  ]),
+  showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES),
   stores: envOrArray(process.env.STORES, ['game']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
 
