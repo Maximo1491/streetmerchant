@@ -178,6 +178,28 @@ export const AmazonUk: Store = {
       url: 'https://www.amazon.co.uk/Pokémon-POK80742-TCG-Zamazenta-Collection/dp/B08HJ86Y8T/',
       maxPrice: 120
     },
+    {
+      brand: 'pokemon',
+      model: 'etb',
+      description: 'Battle Styles Elite Trainer Box',
+      thumbnail: 'https://cdn.shopify.com/s/files/1/1381/2481/products/unnamed_11_487b850d-7eb6-458d-a277-c0f6a35286a4.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08QZM514Y&Quantity.1=1',
+      series: 'battle-styles',
+      url: 'https://www.amazon.co.uk/Pokémon-TCG-Shield-Styles-Trainer/dp/B08QZM514Y/',
+      maxPrice: 43
+    },
+    {
+      brand: 'pokemon',
+      model: 'triple-booster',
+      description: 'Battle Styles 3 Pack Blister (random)',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/91J7HwBHq4L._AC_SL1500_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08R82GGS8&Quantity.1=1',
+      series: 'battle-styles',
+      url: 'https://www.amazon.co.uk/Pokémon-TCG-Shield-Battle-Booster/dp/B08R82GGS8/',
+      maxPrice: 14
+    },
   ],
   name: 'Amazon',
   postage: 0,
