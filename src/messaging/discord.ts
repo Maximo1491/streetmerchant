@@ -46,8 +46,6 @@ export function sendDiscordMessage(link: Link, store: Store) {
           embed.addField('Inc Postage', `${store.currency}${link.price!+store.postage}`, true);
         embed.addField('Product Page', link.url);
         if (link.cartUrl) embed.addField('Add to Cart', link.cartUrl);
-        embed.addField('Series', link.series, true);
-        embed.addField('Type', link.model, true);
 
         embed.setTimestamp();
 
