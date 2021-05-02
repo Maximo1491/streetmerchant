@@ -6,6 +6,8 @@ import {getSleepTime} from './util';
 import {logger} from './logger';
 import {storeList} from './store/model';
 import {tryLookupAndLoop} from './store';
+import puppeteer from 'puppeteer-extra'
+import StealthPlugin from 'puppeteer-extra-plugin-stealth'
 
 let browser: Browser | undefined;
 
@@ -58,6 +60,8 @@ async function main() {
   if (args.length > 0) {
     logger.info('ℹ puppeteer config: ', args);
   }
+
+  puppeteer.use(StealthPlugin())
 
   await stop();
   browser = await launch({
