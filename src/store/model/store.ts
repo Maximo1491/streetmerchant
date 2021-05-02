@@ -22,6 +22,7 @@ export type Series =
   | 'shining-fates'
   | 'battle-styles'
   | 'sun-and-moon'
+  | 'vivid-voltage'
   | 'unknown';
 
 export type Model =
