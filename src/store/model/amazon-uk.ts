@@ -33,8 +33,134 @@ export const AmazonUk: Store = {
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08R84814V&Quantity.1=1',
       series: 'battle-styles',
-      url: 'https://www.amazon.co.uk/Pokémon-TCG-Shield-Battle-Booster/dp/B08R84814V',
+      url: 'https://www.amazon.co.uk/Pokémon-TCG-Shield-Battle-Booster/dp/B08R84814V/',
       maxPrice: 110
+    },
+    {
+      brand: 'pokemon',
+      model: 'tin',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07S9WBNV2&Quantity.1=1',
+      series: 'hidden-fates',
+      url: 'https://www.amazon.co.uk/gp/product/B07S9WBNV2/',
+      maxPrice: 25
+    },
+    {
+      brand: 'pokemon',
+      model: 'etb',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07SPJY3YR&Quantity.1=1',
+      series: 'hidden-fates',
+      url: 'https://www.amazon.co.uk/Pokémon-POK80473-TCG-Trainer-Colours/dp/B07SPJY3YR/',
+      maxPrice: 60
+    },
+    {
+      brand: 'pokemon',
+      model: 'tin',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07XTKBCN9&Quantity.1=1',
+      series: 'hidden-fates',
+      url: 'https://www.amazon.co.uk/Pokemon-Hidden-Raichu-Collectors-Booster/dp/B07XTKBCN9/',
+      maxPrice: 25
+    },
+    {
+      brand: 'pokemon',
+      model: 'tin',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07XTKQBZG&Quantity.1=1',
+      series: 'hidden-fates',
+      url: 'https://www.amazon.co.uk/Pokemon-Hidden-Charizard-Collectors-Booster/dp/B07XTKQBZG/',
+      maxPrice: 25
+    },
+    {
+      brand: 'pokemon',
+      model: 'tin',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07XTJV8DC&Quantity.1=1',
+      series: 'hidden-fates',
+      url: 'https://www.amazon.co.uk/Pokemon-Hidden-Gyarados-Collectors-Booster/dp/B07XTJV8DC/',
+      maxPrice: 25
+    },
+    {
+      brand: 'pokemon',
+      model: 'tin',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07VND1BJF&Quantity.1=1',
+      series: 'hidden-fates',
+      url: 'https://www.amazon.co.uk/Pokemon-Hidden-Fates-Tins/dp/B07VND1BJF/',
+      maxPrice: 75
+    },
+    {
+      brand: 'pokemon',
+      model: 'etb',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS2F9RD&Quantity.1=1',
+      series: 'shining-fates',
+      url: 'https://www.amazon.co.uk/Pokémon-TCG-Shining-Fates-Trainer/dp/B08PS2F9RD/',
+      maxPrice: 60
+    },
+    {
+      brand: 'pokemon',
+      model: 'mini-tin',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PTTVLBJ&Quantity.1=1',
+      series: 'shining-fates',
+      url: 'https://www.amazon.co.uk/Pokémon-TCG-Shining-Fates-random/dp/B08PTTVLBJ/',
+      maxPrice: 12
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PTV374B&Quantity.1=1',
+      series: 'shining-fates',
+      url: 'https://www.amazon.co.uk/Pokémon-TCG-Shining-Collection-random/dp/B08PTV374B/',
+      maxPrice: 18
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS15TSH&Quantity.1=1',
+      series: 'shining-fates',
+      url: 'https://www.amazon.co.uk/Pokémon-TCG-Shining-Fates-Pikachu/dp/B08PS15TSH/',
+      maxPrice: 25
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PSBQPTV&Quantity.1=1',
+      series: 'shining-fates',
+      url: 'https://www.amazon.co.uk/Pokémon-TCG-Shining-Collection-Dragapult/dp/B08PSBQPTV/',
+      maxPrice: 48
+    },
+    {
+      brand: 'pokemon',
+      model: 'tin',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS582QY&Quantity.1=1',
+      series: 'shining-fates',
+      url: 'https://www.amazon.co.uk/Pokémon-TCG-Shining-Fates-Tin-Multicolor/dp/B08PS582QY/',
+      maxPrice: 30
+    },
+    {
+      brand: 'pokemon',
+      model: 'etb',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HJCJT89&Quantity.1=1',
+      series: 'sun-and-moon',
+      url: 'https://www.amazon.co.uk/Pokemon-POK82743-Pokémon-TCG-Zamazenta/dp/B08HJCJT89/',
+      maxPrice: 75
+    },
+    {
+      brand: 'pokemon',
+      model: 'etb',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HJ86Y8T&Quantity.1=1',
+      series: 'sun-and-moon',
+      url: 'https://www.amazon.co.uk/Pokémon-POK80742-TCG-Zamazenta-Collection/dp/B08HJ86Y8T/',
+      maxPrice: 120
     },
   ],
   name: 'Amazon',

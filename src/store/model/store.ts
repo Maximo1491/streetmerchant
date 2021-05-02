@@ -21,6 +21,7 @@ export type Series =
   | 'hidden-fates'
   | 'shining-fates'
   | 'battle-styles'
+  | 'sun-and-moon'
   | 'unknown';
 
 export type Model =
@@ -32,7 +33,8 @@ export type Model =
   | 'triple-booster'
   | 'blister'
   | 'box'
-  | 'tin';
+  | 'tin'
+  | 'mini-tin';
 
 export type Link = {
   brand: Brand;
