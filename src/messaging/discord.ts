@@ -43,7 +43,6 @@ export function sendDiscordMessage(link: Link, store: Store) {
         embed.addField('Store', store.name, true);
         if (link.price)
           embed.addField('Price', `${store.currency}${link.price}`, true);
-          embed.addField('Inc Postage', `${store.currency}${link.price!+store.postage}`, true);
         embed.addField('Product Page', link.url);
         if (link.cartUrl) embed.addField('Add to Cart', link.cartUrl);
 
@@ -59,7 +58,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
         const notifyIndex = notifyKeys.indexOf(link.series);
         if (notifyIndex !== -1) {
           notifyText = notifyText.concat(
-            Object.values(notifyGroupSeries)[notifyIndex]
+            '<@&' + Object.values(notifyGroupSeries)[notifyIndex] + '>'
           );
         }
 
