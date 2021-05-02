@@ -12,7 +12,7 @@ export const JohnLewis: Store = {
     {
       brand: 'pokemon',
       model: 'triple-booster',
-      series: 'unknown',
+      series: 'sword-and-shield',
       url:
         'https://www.johnlewis.com/pokemon-triple-booster-pack-trading-cards-assorted/p3017163',
     },

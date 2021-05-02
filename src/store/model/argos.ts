@@ -15,7 +15,7 @@ export const Argos: Store = {
     {
       brand: 'pokemon',
       model: 'tin',
-      series: 'unknown',
+      series: 'sword-and-shield',
       url: 'https://www.argos.co.uk/product/3907980',
     },
   ],

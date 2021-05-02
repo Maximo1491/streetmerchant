@@ -23,7 +23,7 @@ export type Series =
   | 'battle-styles'
   | 'sun-and-moon'
   | 'vivid-voltage'
-  | 'unknown';
+  | 'sword-and-shield';
 
 export type Model =
   | 'test:model'

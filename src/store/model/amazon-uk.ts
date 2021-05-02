@@ -239,7 +239,7 @@ export const AmazonUk: Store = {
       thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/715ES74Y3UL._AC_SL1500_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08R855SQL&Quantity.1=1',
-      series: 'unknown',
+      series: 'sword-and-shield',
       url: 'https://www.amazon.co.uk/gp/product/B08R855SQL/',
       maxPrice: 15
     },
@@ -250,7 +250,7 @@ export const AmazonUk: Store = {
       thumbnail: 'https://m.media-amazon.com/images/I/915tMPKoBFL._AC_SL1500_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08RDTLCL4&Quantity.1=1',
-      series: 'unknown',
+      series: 'sword-and-shield',
       url: 'https://www.amazon.co.uk/gp/product/B08RDTLCL4/',
       maxPrice: 21
     },
@@ -261,7 +261,7 @@ export const AmazonUk: Store = {
       thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/811UVItHUuL._AC_SL1500_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08DN3PSYD&Quantity.1=1',
-      series: 'unknown',
+      series: 'sun-and-moon',
       url: 'https://www.amazon.co.uk/gp/product/B08DN3PSYD/',
       maxPrice: 23
     },
@@ -272,7 +272,7 @@ export const AmazonUk: Store = {
       thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/513GL0cFrDL._AC_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08S6KMQCT&Quantity.1=1',
-      series: 'unknown',
+      series: 'sword-and-shield',
       url: 'https://www.amazon.co.uk/gp/product/B08S6KMQCT/',
       maxPrice: 28
     },
@@ -283,7 +283,7 @@ export const AmazonUk: Store = {
       thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/917Z2tL8SiL._AC_SL1500_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0889B3FMB&Quantity.1=1',
-      series: 'unknown',
+      series: 'sword-and-shield',
       url: 'https://www.amazon.co.uk/gp/product/B0889B3FMB/',
       maxPrice: 22
     },

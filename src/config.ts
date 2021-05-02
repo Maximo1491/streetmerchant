@@ -232,6 +232,11 @@ const notifications = {
       'test:series': envOrArray(process.env.DISCORD_NOTIFY_GROUP_TEST),
       'captcha-deterrent': [],
       'battle-styles': envOrArray(process.env.DISCORD_NOTIFY_GROUP_BATTLE_STYLES),
+      'hidden-fates': envOrArray(process.env.DISCORD_NOTIFY_GROUP_HIDDEN_FATES),
+      'shining-fates': envOrArray(process.env.DISCORD_NOTIFY_GROUP_SHINING_FATES),
+      'vivid-voltage': envOrArray(process.env.DISCORD_NOTIFY_GROUP_VIVID_VOLTAGE),
+      'sword-and-shield': envOrArray(process.env.DISCORD_NOTIFY_GROUP_SWORD_AND_SHIELD),
+      'sun-and-moon': envOrArray(process.env.DISCORD_NOTIFY_GROUP_SUN_AND_MOON),
     },
     webhooks: envOrArray(process.env.DISCORD_WEB_HOOK),
   },
@@ -385,10 +390,6 @@ const store = {
     series: {
       'test:series': envOrNumber(process.env.MAX_PRICE_SERIES_TEST),
       'captcha-deterrent': 0,
-      'battle-styles': envOrNumber(process.env.MAX_PRICE_SERIES_BATTLE_STYLES),
-      'shining-fates': envOrNumber(process.env.MAX_PRICE_SERIES_SHINING_FATES),
-      'hidden-fates': envOrNumber(process.env.MAX_PRICE_SERIES_HIDDEN_FATES),
-      'unknown': envOrNumber(process.env.MAX_PRICE_SERIES_UNKNOWN),
     },
   },
   microCenterLocation: envOrArray(process.env.MICROCENTER_LOCATION, ['web']),
@@ -403,10 +404,6 @@ const store = {
   showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, [
     'test:series',
     'captcha-deterrent',
-    'battle-styles',
-    'shining-fates',
-    'hidden-fates',
-    'unknown',
   ]),
   stores: envOrArray(process.env.STORES, ['game']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
