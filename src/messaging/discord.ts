@@ -75,7 +75,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
               client
                 .send(notifyText.join(' '), {
                   embeds: [embed],
-                  username: 'streetmerchant',
+                  username: "Max's Pokélerts",
                 })
                 .then(resp => {
                   logger.info('✔ discord message sent resp.id: ' + resp.id);

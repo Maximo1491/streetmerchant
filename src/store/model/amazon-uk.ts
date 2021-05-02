@@ -252,7 +252,7 @@ export const AmazonUk: Store = {
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08RDTLCL4&Quantity.1=1',
       series: 'unknown',
       url: 'https://www.amazon.co.uk/gp/product/B08RDTLCL4/',
-      maxPrice: 18
+      maxPrice: 21
     },
     {
       brand: 'pokemon',
