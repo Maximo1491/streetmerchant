@@ -479,7 +479,7 @@ async function isItemInStock(
   }
 
   if (store.labels.maxPrice) {
-    const maxPrice = config.store.maxPrice.series[link.series];
+    const maxPrice = (link.maxPrice === undefined) ? 999999 : link.maxPrice;
 
     link.price = await getPrice(page, store.labels.maxPrice, baseOptions);
 

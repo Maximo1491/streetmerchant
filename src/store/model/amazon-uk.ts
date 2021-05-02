@@ -30,8 +30,11 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'booster-box',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08R84814V&Quantity.1=1',
       series: 'battle-styles',
       url: 'https://www.amazon.co.uk/Pokémon-TCG-Shield-Battle-Booster/dp/B08R84814V',
+      maxPrice: 120
     },
   ],
   name: 'Amazon',

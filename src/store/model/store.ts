@@ -45,6 +45,7 @@ export type Link = {
   series: Series;
   screenshot?: string;
   url: string;
+  maxPrice?: number;
 };
 
 export type CaptchaHandlerElements = {
