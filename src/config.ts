@@ -237,6 +237,7 @@ const notifications = {
       'vivid-voltage': envOrArray(process.env.DISCORD_NOTIFY_GROUP_VIVID_VOLTAGE),
       'sword-and-shield': envOrArray(process.env.DISCORD_NOTIFY_GROUP_SWORD_AND_SHIELD),
       'sun-and-moon': envOrArray(process.env.DISCORD_NOTIFY_GROUP_SUN_AND_MOON),
+      'japanese-sets': envOrArray(process.env.DISCORD_NOTIFY_GROUP_JAPANESE_SETS),
     },
     webhooks: envOrArray(process.env.DISCORD_WEB_HOOK),
   },

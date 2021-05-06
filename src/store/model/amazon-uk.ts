@@ -213,17 +213,6 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'box',
-      description: 'Battle Styles Urshifu V Box',
-      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/71fN4aGwrrL._AC_SL1000_.jpg',
-      cartUrl:
-        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08S6W7ZJC&Quantity.1=1',
-      series: 'battle-styles',
-      url: 'https://www.amazon.co.uk/gp/product/B08S6W7ZJC/',
-      maxPrice: 22
-    },
-    {
-      brand: 'pokemon',
-      model: 'box',
       description: 'Battle Styles Premium Blister',
       thumbnail: 'https://m.media-amazon.com/images/I/91vGoZ6mkaL._AC_SL1500_.jpg',
       cartUrl:
@@ -242,17 +231,6 @@ export const AmazonUk: Store = {
       series: 'sword-and-shield',
       url: 'https://www.amazon.co.uk/gp/product/B08R855SQL/',
       maxPrice: 15
-    },
-    {
-      brand: 'pokemon',
-      model: 'tin',
-      description: 'V Forces Tin',
-      thumbnail: 'https://m.media-amazon.com/images/I/915tMPKoBFL._AC_SL1500_.jpg',
-      cartUrl:
-        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08RDTLCL4&Quantity.1=1',
-      series: 'sword-and-shield',
-      url: 'https://www.amazon.co.uk/gp/product/B08RDTLCL4/',
-      maxPrice: 21
     },
     {
       brand: 'pokemon',
@@ -308,6 +286,38 @@ export const AmazonUk: Store = {
       series: 'vivid-voltage',
       url: 'https://www.amazon.co.uk/gp/product/B08GZ7XP18/',
       maxPrice: 45
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Eevee Heroes Box",
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/71VuQkn28CS._AC_SL1260_.jpg',
+      series: 'japanese-sets',
+      url: 'https://www.amazon.co.jp/dp/B08WB9FZ5D/'
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Special Set Eevee Heroes",
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/91er4CpYu9S._AC_SL1500_.jpg',
+      series: 'japanese-sets',
+      url: 'https://www.amazon.co.jp/dp/B08WB9S8F8/'
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Eevee Heroes Eevys Set",
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/61GiDgaaUoS._AC_SL1080_.jpg',
+      series: 'japanese-sets',
+      url: 'https://www.amazon.co.jp/dp/B08X2RL2V3/'
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Japanese sock test",
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/61GiDgaaUoS._AC_SL1080_.jpg',
+      series: 'japanese-sets',
+      url: 'https://www.amazon.co.jp/dp/B087M5NG8L/'
     },
   ],
   name: 'Amazon',
