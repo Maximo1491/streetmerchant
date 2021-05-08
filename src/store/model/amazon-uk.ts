@@ -31,6 +31,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'booster-box',
       description: 'Battle Styles Booster Box',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/81vbpp-b2MS._AC_SL1500_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08R84814V&Quantity.1=1',
       series: 'battle-styles',
@@ -41,6 +42,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'tin',
       description: 'Hidden Fates Random Tin',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/71mvWo6R8yL._AC_SL1248_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07S9WBNV2&Quantity.1=1',
       series: 'hidden-fates',
@@ -51,6 +53,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'etb',
       description: 'Hidden Fates Elite Trainer Box',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/61xk1bwrt6L._AC_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07SPJY3YR&Quantity.1=1',
       series: 'hidden-fates',
@@ -61,6 +64,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'tin',
       description: 'Hidden Fates Raichu Tin',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/61niEZZ%2BvIL._AC_SL1000_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07XTKBCN9&Quantity.1=1',
       series: 'hidden-fates',
@@ -71,6 +75,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'tin',
       description: 'Hidden Fates Charizard Tin',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/71tKJqYPtvL._AC_SL1248_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07XTKQBZG&Quantity.1=1',
       series: 'hidden-fates',
@@ -81,6 +86,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'tin',
       description: 'Hidden Fates Gyarados Tin',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/71cj%2BXR9mmL._AC_SL1500_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07XTJV8DC&Quantity.1=1',
       series: 'hidden-fates',
@@ -91,6 +97,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'tin',
       description: 'Hidden Fates 3x Tins',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/618gIb7%2BA8L._AC_SL1024_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07VND1BJF&Quantity.1=1',
       series: 'hidden-fates',
@@ -101,6 +108,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'etb',
       description: 'Shining Fates Elite Trainer Box',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/712jg2dyxEL._AC_SL1500_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS2F9RD&Quantity.1=1',
       series: 'shining-fates',
@@ -111,6 +119,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'mini-tin',
       description: 'Shining Fates Mini Tin',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/91qV1ehvzeL._AC_SL1500_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PTTVLBJ&Quantity.1=1',
       series: 'shining-fates',
@@ -132,6 +141,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'box',
       description: 'Shining Fates Pikachu V Box',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/617x1O-W2lL._AC_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS15TSH&Quantity.1=1',
       series: 'shining-fates',
@@ -142,6 +152,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'box',
       description: 'Shining Fates Crobat/Dragapult Premium Collection',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/71oG815Mm5L._AC_SL1500_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PSBQPTV&Quantity.1=1',
       series: 'shining-fates',
@@ -152,6 +163,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'tin',
       description: 'Shining Fates Random Tin',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51M1bHJ9srL._AC_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS582QY&Quantity.1=1',
       series: 'shining-fates',
@@ -162,6 +174,7 @@ export const AmazonUk: Store = {
       brand: 'pokemon',
       model: 'tin',
       description: 'Shining Fates Random Tin',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51M1bHJ9srL._AC_.jpg',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS582QY&Quantity.1=1',
       series: 'shining-fates',
@@ -171,6 +184,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'etb',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51allUwURLL._AC_SL1024_.jpg',
       description: 'Zacian/Zamazenta Elite Trainer Box',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HJCJT89&Quantity.1=1',
@@ -181,6 +195,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'etb',
+      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/61B9mMB6oML._AC_SL1500_.jpg',
       description: 'Zacian and Zamazenta Ultra Premium Collection',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HJ86Y8T&Quantity.1=1',
@@ -274,7 +289,7 @@ export const AmazonUk: Store = {
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08GZ7MWFV&Quantity.1=1',
       series: 'vivid-voltage',
       url: 'https://www.amazon.co.uk/gp/product/B08GZ7MWFV/',
-      maxPrice: 120
+      maxPrice: 140
     },
     {
       brand: 'pokemon',
@@ -286,38 +301,6 @@ export const AmazonUk: Store = {
       series: 'vivid-voltage',
       url: 'https://www.amazon.co.uk/gp/product/B08GZ7XP18/',
       maxPrice: 45
-    },
-    {
-      brand: 'pokemon',
-      model: 'box',
-      description: "Eevee Heroes Box",
-      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/71VuQkn28CS._AC_SL1260_.jpg',
-      series: 'japanese-sets',
-      url: 'https://www.amazon.co.jp/dp/B08WB9FZ5D/'
-    },
-    {
-      brand: 'pokemon',
-      model: 'box',
-      description: "Special Set Eevee Heroes",
-      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/91er4CpYu9S._AC_SL1500_.jpg',
-      series: 'japanese-sets',
-      url: 'https://www.amazon.co.jp/dp/B08WB9S8F8/'
-    },
-    {
-      brand: 'pokemon',
-      model: 'box',
-      description: "Eevee Heroes Eevys Set",
-      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/61GiDgaaUoS._AC_SL1080_.jpg',
-      series: 'japanese-sets',
-      url: 'https://www.amazon.co.jp/dp/B08X2RL2V3/'
-    },
-    {
-      brand: 'pokemon',
-      model: 'box',
-      description: "Japanese sock test",
-      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/61GiDgaaUoS._AC_SL1080_.jpg',
-      series: 'japanese-sets',
-      url: 'https://www.amazon.co.jp/dp/B087M5NG8L/'
     },
   ],
   name: 'Amazon',

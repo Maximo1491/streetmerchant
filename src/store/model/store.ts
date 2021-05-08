@@ -100,7 +100,7 @@ export type Store = {
   labels: Labels;
   name: string;
   postage: number;
-  currency: '£' | '$' | '€' | 'R$' | 'kr.' | '';
+  currency: '£' | '$' | '€' | 'R$' | 'kr.' | '¥' | '';
   setupAction?: (browser: Browser) => void;
   /**
    * The range of status codes which considered successful, i.e. without error
