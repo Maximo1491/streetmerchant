@@ -1,5 +1,6 @@
 import {config, defaultStoreData} from '../../config';
 import {AmazonUk} from './amazon-uk';
+import {AmazonJp} from './amazon-jp';
 import {Argos} from './argos';
 import {Game} from './game';
 import {JohnLewis} from './johnlewis';
@@ -11,6 +12,7 @@ import chalk from 'chalk';
 
 export const storeList = new Map([
   [AmazonUk.name, AmazonUk],
+  [AmazonJp.name, AmazonJp],
   [Argos.name, Argos],
   [Game.name, Game],
   [JohnLewis.name, JohnLewis],

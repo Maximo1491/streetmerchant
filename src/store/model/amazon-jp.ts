@@ -1,6 +1,6 @@
 import {Link, Store} from './store';
 
-export const AmazonUk: Store = {
+export const AmazonJp: Store = {
   backoffStatusCodes: [403, 429, 503],
   currency: '¥',
   labels: {
