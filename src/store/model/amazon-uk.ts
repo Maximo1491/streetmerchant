@@ -188,7 +188,7 @@ export const AmazonUk: Store = {
       description: 'Zacian/Zamazenta Elite Trainer Box',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HJCJT89&Quantity.1=1',
-      series: 'sun-and-moon',
+      series: 'sword-and-shield',
       url: 'https://www.amazon.co.uk/gp/product/B08HJCJT89/',
       maxPrice: 75
     },
@@ -199,7 +199,7 @@ export const AmazonUk: Store = {
       description: 'Zacian and Zamazenta Ultra Premium Collection',
       cartUrl:
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HJ86Y8T&Quantity.1=1',
-      series: 'sun-and-moon',
+      series: 'sword-and-shield',
       url: 'https://www.amazon.co.uk/gp/product/B08HJ86Y8T/',
       maxPrice: 120
     },

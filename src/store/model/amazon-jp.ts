@@ -33,7 +33,8 @@ export const AmazonJp: Store = {
       description: "Eevee Heroes Box",
       thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/71VuQkn28CS._AC_SL1260_.jpg',
       series: 'japanese-sets',
-      url: 'https://www.amazon.co.jp/dp/B08WB9FZ5D/'
+      url: 'https://www.amazon.co.jp/dp/B08WB9FZ5D/',
+      maxPrice: 6200
     },
     {
       brand: 'pokemon',
@@ -41,7 +42,8 @@ export const AmazonJp: Store = {
       description: "Special Set Eevee Heroes",
       thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/91er4CpYu9S._AC_SL1500_.jpg',
       series: 'japanese-sets',
-      url: 'https://www.amazon.co.jp/dp/B08WB9S8F8/'
+      url: 'https://www.amazon.co.jp/dp/B08WB9S8F8/',
+      maxPrice: 2100
     },
     {
       brand: 'pokemon',
@@ -49,7 +51,8 @@ export const AmazonJp: Store = {
       description: "Eevee Heroes Eevys Set",
       thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/61GiDgaaUoS._AC_SL1080_.jpg',
       series: 'japanese-sets',
-      url: 'https://www.amazon.co.jp/dp/B08X2RL2V3/'
+      url: 'https://www.amazon.co.jp/dp/B08X2RL2V3/',
+      maxPrice: 20000
     },
   ],
   name: 'Amazon-JP',
