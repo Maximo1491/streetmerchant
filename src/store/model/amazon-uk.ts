@@ -36,7 +36,7 @@ export const AmazonUk: Store = {
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08R84814V&Quantity.1=1',
       series: 'battle-styles',
       url: 'https://www.amazon.co.uk/gp/product/B08R84814V/',
-      maxPrice: 110
+      maxPrice: 100
     },
     {
       brand: 'pokemon',
@@ -113,7 +113,7 @@ export const AmazonUk: Store = {
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PS2F9RD&Quantity.1=1',
       series: 'shining-fates',
       url: 'https://www.amazon.co.uk/gp/product/B08PS2F9RD/',
-      maxPrice: 60
+      maxPrice: 53
     },
     {
       brand: 'pokemon',
@@ -124,7 +124,7 @@ export const AmazonUk: Store = {
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PTTVLBJ&Quantity.1=1',
       series: 'shining-fates',
       url: 'https://www.amazon.co.uk/gp/product/B08PTTVLBJ/',
-      maxPrice: 12
+      maxPrice: 10
     },
     {
       brand: 'pokemon',
@@ -135,7 +135,7 @@ export const AmazonUk: Store = {
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PTV374B&Quantity.1=1',
       series: 'shining-fates',
       url: 'https://www.amazon.co.uk/gp/product/B08PTV374B/',
-      maxPrice: 18
+      maxPrice: 16
     },
     {
       brand: 'pokemon',
@@ -157,7 +157,7 @@ export const AmazonUk: Store = {
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PSBQPTV&Quantity.1=1',
       series: 'shining-fates',
       url: 'https://www.amazon.co.uk/gp/product/B08PSBQPTV/',
-      maxPrice: 48
+      maxPrice: 42
     },
     {
       brand: 'pokemon',
@@ -190,7 +190,7 @@ export const AmazonUk: Store = {
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HJCJT89&Quantity.1=1',
       series: 'sword-and-shield',
       url: 'https://www.amazon.co.uk/gp/product/B08HJCJT89/',
-      maxPrice: 75
+      maxPrice: 65
     },
     {
       brand: 'pokemon',
@@ -213,39 +213,6 @@ export const AmazonUk: Store = {
       series: 'battle-styles',
       url: 'https://www.amazon.co.uk/gp/product/B08QZM514Y/',
       maxPrice: 43
-    },
-    {
-      brand: 'pokemon',
-      model: 'triple-booster',
-      description: 'Battle Styles 3 Pack Blister (random)',
-      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/91J7HwBHq4L._AC_SL1500_.jpg',
-      cartUrl:
-        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08R82GGS8&Quantity.1=1',
-      series: 'battle-styles',
-      url: 'https://www.amazon.co.uk/gp/product/B08R82GGS8/',
-      maxPrice: 14
-    },
-    {
-      brand: 'pokemon',
-      model: 'box',
-      description: 'Battle Styles Premium Blister',
-      thumbnail: 'https://m.media-amazon.com/images/I/91vGoZ6mkaL._AC_SL1500_.jpg',
-      cartUrl:
-        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08SMJJ8RB&Quantity.1=1',
-      series: 'battle-styles',
-      url: 'https://www.amazon.co.uk/gp/product/B08SMJJ8RB/',
-      maxPrice: 8
-    },
-    {
-      brand: 'pokemon',
-      model: 'mini-tin',
-      description: 'Poke Ball Tin Series 6',
-      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/715ES74Y3UL._AC_SL1500_.jpg',
-      cartUrl:
-        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08R855SQL&Quantity.1=1',
-      series: 'sword-and-shield',
-      url: 'https://www.amazon.co.uk/gp/product/B08R855SQL/',
-      maxPrice: 15
     },
     {
       brand: 'pokemon',
