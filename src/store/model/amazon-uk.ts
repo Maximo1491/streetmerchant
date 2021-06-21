@@ -95,17 +95,6 @@ export const AmazonUk: Store = {
     },
     {
       brand: 'pokemon',
-      model: 'tin',
-      description: 'Hidden Fates 3x Tins',
-      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/618gIb7%2BA8L._AC_SL1024_.jpg',
-      cartUrl:
-        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B07VND1BJF&Quantity.1=1',
-      series: 'hidden-fates',
-      url: 'https://www.amazon.co.uk/gp/product/B07VND1BJF/',
-      maxPrice: 75
-    },
-    {
-      brand: 'pokemon',
       model: 'etb',
       description: 'Shining Fates Elite Trainer Box',
       thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/712jg2dyxEL._AC_SL1500_.jpg',
