@@ -5,6 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: streetmerchant
+    container_name: maximo1491/pokelerts
     env_file:
       - dotenv

@@ -106,17 +106,6 @@ export const AmazonUk: Store = {
     },
     {
       brand: 'pokemon',
-      model: 'box',
-      description: "Venusaur/Blastoise VMAX Box",
-      thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/513GL0cFrDL._AC_.jpg',
-      cartUrl:
-        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08S6KMQCT&Quantity.1=1',
-      series: 'sword-and-shield',
-      url: 'https://www.amazon.co.uk/gp/product/B08S6KMQCT/',
-      maxPrice: 28
-    },
-    {
-      brand: 'pokemon',
       model: 'tin',
       description: "Legends of Galar - V Tin",
       thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/917Z2tL8SiL._AC_SL1500_.jpg',
@@ -147,6 +136,105 @@ export const AmazonUk: Store = {
       series: 'vivid-voltage',
       url: 'https://www.amazon.co.uk/gp/product/B08GZ7XP18/',
       maxPrice: 45
+    },
+    {
+      brand: 'pokemon',
+      model: 'etb',
+      description: "Celebrations Elite Trainer Box",
+      thumbnail: 'https://www.amazon.co.uk/images/I/71WbvHF6uHL._AC_SL1500_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B09DGRDDNP&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B09DGRDDNP/',
+      maxPrice: 55
+    },
+    {
+      brand: 'pokemon',
+      model: 'etb',
+      description: "Celebrations Elite Trainer Box",
+      thumbnail: 'https://www.amazon.co.uk/images/I/71WbvHF6uHL._AC_SL1500_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0981BNN9M&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B0981BNN9M/',
+      maxPrice: 55
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Dragapult Prime Collection",
+      thumbnail: 'https://www.amazon.co.uk/images/I/91D3TumUT5L._AC_SL1500_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0981C6N34&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B0981C6N34/',
+      maxPrice: 16
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Celebrations Deluxe Pin Box",
+      thumbnail: 'https://www.amazon.co.uk/images/I/818Op35fTxL._AC_SL1500_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0981BVNCR&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B0981BVNCR/',
+      maxPrice: 22
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Celebrations Pikachu Vmax Premium Figure Box",
+      thumbnail: 'https://www.amazon.co.uk/images/I/413hv7zvCfL._AC_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B09DGQHLB3&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B09DGQHLB3/',
+      maxPrice: 55
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Celebrations Collectors Chest",
+      thumbnail: 'https://www.amazon.co.uk/images/I/81e9ZGO81DL._AC_SL1500_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0984S8NSF&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B0984S8NSF/',
+      maxPrice: 27
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Celebrations Ultra Premium Collection Box",
+      thumbnail: 'https://www.amazon.co.uk/images/I/319AMsbgovL._AC_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B09DGVSHP8&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B09DGVSHP8/',
+      maxPrice: 200
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Celebrations Special Collection Pikachu V- Union",
+      thumbnail: 'https://www.amazon.co.uk/images/I/81pzo5IxBCL._AC_SL1500_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0981DRXGP&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B0981DRXGP/',
+      maxPrice: 33
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Celebrations V Box",
+      thumbnail: 'https://www.amazon.co.uk/images/I/51-HVhL6dUS._AC_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0981BSM8M&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B0981BSM8M/',
+      maxPrice: 22
     },
   ],
   name: 'Amazon',

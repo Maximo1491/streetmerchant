@@ -23,6 +23,7 @@ export type Series =
   | 'battle-styles'
   | 'sun-and-moon'
   | 'vivid-voltage'
+  | 'celebrations'
   | 'sword-and-shield'
   | 'japanese-sets';
 

@@ -235,6 +235,7 @@ const notifications = {
       'hidden-fates': envOrArray(process.env.DISCORD_NOTIFY_GROUP_HIDDEN_FATES),
       'shining-fates': envOrArray(process.env.DISCORD_NOTIFY_GROUP_SHINING_FATES),
       'vivid-voltage': envOrArray(process.env.DISCORD_NOTIFY_GROUP_VIVID_VOLTAGE),
+      'celebrations': envOrArray(process.env.DISCORD_NOTIFY_GROUP_CELEBRATIONS),
       'sword-and-shield': envOrArray(process.env.DISCORD_NOTIFY_GROUP_SWORD_AND_SHIELD),
       'sun-and-moon': envOrArray(process.env.DISCORD_NOTIFY_GROUP_SUN_AND_MOON),
       'japanese-sets': envOrArray(process.env.DISCORD_NOTIFY_GROUP_JAPANESE_SETS),
