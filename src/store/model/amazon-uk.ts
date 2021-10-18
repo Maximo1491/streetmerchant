@@ -195,6 +195,17 @@ export const AmazonUk: Store = {
     {
       brand: 'pokemon',
       model: 'box',
+      description: "Celebrations Pikachu Vmax Premium Figure Box",
+      thumbnail: 'https://www.amazon.co.uk/images/I/413hv7zvCfL._AC_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0984MHKGP&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B0984MHKGP/',
+      maxPrice: 55
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
       description: "Celebrations Collectors Chest",
       thumbnail: 'https://www.amazon.co.uk/images/I/81e9ZGO81DL._AC_SL1500_.jpg',
       cartUrl:
@@ -212,6 +223,17 @@ export const AmazonUk: Store = {
         'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B09DGVSHP8&Quantity.1=1',
       series: 'celebrations',
       url: 'https://www.amazon.co.uk/gp/product/B09DGVSHP8/',
+      maxPrice: 200
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Celebrations Ultra Premium Collection Box",
+      thumbnail: 'https://www.amazon.co.uk/images/I/319AMsbgovL._AC_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0981CTCKS&Quantity.1=1',
+      series: 'celebrations',
+      url: 'https://www.amazon.co.uk/gp/product/B0981CTCKS/',
       maxPrice: 200
     },
     {
@@ -235,6 +257,39 @@ export const AmazonUk: Store = {
       series: 'celebrations',
       url: 'https://www.amazon.co.uk/gp/product/B0981BSM8M/',
       maxPrice: 22
+    },
+    {
+      brand: 'pokemon',
+      model: 'box',
+      description: "Marnie Premium Tournament Collection",
+      thumbnail: 'https://www.amazon.co.uk/images/I/613Xo7ri7VL._AC_SL1500_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B096LY1ZP8&Quantity.1=1',
+      series: 'sword-and-shield',
+      url: 'https://www.amazon.co.uk/gp/product/B096LY1ZP8/',
+      maxPrice: 60
+    },
+    {
+      brand: 'pokemon',
+      model: 'etb',
+      description: "Evolving Skies Elite Trainer Box",
+      thumbnail: 'https://www.amazon.co.uk/images/I/61oAOtplfSL._AC_SL1024_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B097KCNL2V&Quantity.1=1',
+      series: 'evolving-skies',
+      url: 'https://www.amazon.co.uk/gp/product/B097KCNL2V/',
+      maxPrice: 42.50
+    },
+    {
+      brand: 'pokemon',
+      model: 'booster-box',
+      description: "Evolving Skies Booster Box",
+      thumbnail: 'https://www.amazon.co.uk/images/I/91tiOuTAuqL._AC_SL1500_.jpg',
+      cartUrl:
+        'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B097QLQX53&Quantity.1=1',
+      series: 'evolving-skies',
+      url: 'https://www.amazon.co.uk/gp/product/B097QLQX53/',
+      maxPrice: 120
     },
   ],
   name: 'Amazon',

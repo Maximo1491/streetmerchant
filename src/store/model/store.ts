@@ -24,6 +24,7 @@ export type Series =
   | 'sun-and-moon'
   | 'vivid-voltage'
   | 'celebrations'
+  | 'evolving-skies'
   | 'sword-and-shield'
   | 'japanese-sets';
 
